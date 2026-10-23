@@ -1,0 +1,6 @@
+{
+  "name": "Expediente Natural · San Luis Potosí",
+  "description": "Micrositio educativo interactivo sobre las especies endémicas, biodiversidad y hábitats de San Luis Potosí con estética de guía de campo ilustrada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

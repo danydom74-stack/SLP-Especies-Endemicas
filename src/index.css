@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-verde: #285744;
+    --color-crema: #F3E9D5;
+    --color-terracota: #B85F40;
+    --color-ocre: #D6AD4E;
+    --color-cafe: #403B32;
+    --color-papel: #FAF6ED;
+  }
+}
+
+.font-boogaloo {
+  font-family: 'Boogaloo', cursive, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-serif-botanical {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Botanical paper textures & field notebook details */
+.bg-cream-parchment {
+  background-color: #F3E9D5;
+  background-image: radial-gradient(rgba(40, 87, 68, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.bg-field-note {
+  background-color: #FAF6ED;
+  box-shadow: 0 4px 20px -2px rgba(64, 59, 50, 0.08), 0 2px 6px -1px rgba(64, 59, 50, 0.05);
+}
+
+.stamp-border {
+  border: 2px dashed #B85F40;
+}
+
+.stamp-box {
+  border: 1.5px solid #285744;
+  outline: 1.5px dashed #285744;
+  outline-offset: 3px;
+}
+
+/* Subtle botanical grid/ruled lines */
+.bg-notebook-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(64, 59, 50, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(64, 59, 50, 0.04) 1px, transparent 1px);
+}
